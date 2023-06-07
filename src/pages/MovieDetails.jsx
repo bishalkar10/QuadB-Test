@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams, useLocation, Link } from "react-router-dom";
 function MovieDetails() {
   const { name } = useParams(); // destructuring the name from the url
